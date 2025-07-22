@@ -1,6 +1,6 @@
 export const subscribeToEmail = async (email: string)=>{
     const response = await fetch(
-        "http://localhost:5000/api/signup", {
+        "https://furniture-app-qe9y.onrender.com/api/signup", {
             method: "POST" ,
             headers: {
                 "Content-Type": "application/json"
